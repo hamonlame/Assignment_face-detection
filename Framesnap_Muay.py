@@ -120,7 +120,7 @@ while True:
         if countdown_time == 0 and current_member_index + 1 < len(member_nicknames):
             is_counting_down = False
             current_member_index += 1
-            frame_count = 0  # Reset frame count for the next member
+            frame_count = 0  # Reset frame count for the next membe
 
     # Write the frame to the output file
     out.write(frame)
