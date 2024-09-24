@@ -37,7 +37,8 @@ def save_image_to_folders(frame, frame_count, member_idx):
     member_name, folder_name = members[member_idx]
     folder_path = os.path.join(base_path, folder_name)
 
-    image_file_name = f"{frame_count}_{member_name}.png"
+    # ปรับชื่อไฟล์ให้ตรงกับรูปแบบที่ต้องการ
+    image_file_name = f"{folder_name}_{member_name}_{frame_count}.png"
     image_file_path = os.path.join(folder_path, image_file_name)
 
     # เช็คว่าไฟล์นี้มีอยู่แล้วหรือไม่
