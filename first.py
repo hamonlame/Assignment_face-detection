@@ -18,7 +18,7 @@ members_info = get_members_info()
 
 cam = cv.VideoCapture(0)
 
-cascade = cv.CascadeClassifier("Detect/haarcascade_frontalface_default.xml")
+cascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 image_counter = 1
 frame_count = 0
